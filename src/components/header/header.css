@@ -1,0 +1,75 @@
+#Dark .header-container{
+    display: grid;
+    grid-template: 1fr / 2fr 1fr;
+    background-color: #1A1A1D;
+    
+}
+
+#Dark .title-container h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.5rem;
+    margin-left: 5px;
+    margin-bottom: -10px;
+    margin-top: 5px;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    color: #c4698d;
+    
+}
+
+#Light .header-container{
+    display: grid;
+    grid-template: 1fr / 2fr 1fr;
+    background-color: #c5c5ce;
+}
+
+#Light .title-container h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.5rem;
+    margin-left: 5px;
+    margin-bottom: -10px;
+    margin-top: 5px;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    color: #950740;
+}
+#Light .h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.75rem;
+    color: #950740;
+    margin-left: 5px;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+#Dark .h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.75rem;
+    color: #c4698d;
+    margin-left: 5px;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.searchbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 5px;
+    margin-bottom: 15px;
+}
+
+.searchbar .h4 {
+   margin-left: 5px;
+}
+.homePage {
+    text-decoration: none;
+}
+.subredditSearch {
+    margin-left: 15px;
+}

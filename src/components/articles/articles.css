@@ -1,0 +1,68 @@
+.article-container {
+    display: grid;
+    grid-template: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr/ 1fr;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 1274px;
+    margin-top: 1px;
+}
+#Dark article {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    overflow: hidden;
+    color: lightgray;
+    align-items: center;
+    cursor: pointer;
+}
+#Light article {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    overflow: hidden;
+    color: rgb(26, 24, 24);
+    align-items: center;
+    cursor: pointer;
+}
+article img {
+    border-radius: 15%;
+    margin-left: 5px;
+    
+}
+.mainText {
+    width: 75%;
+    height: 100%; 
+    margin: 15px;
+    font-size: 85%; 
+}
+
+
+#Dark article:hover {
+    background-color: #c4698d;
+}
+
+#Light article:hover {
+    background-color: #c5c5ce;
+}
+
+button {
+    height: 50px;
+    width: 50px;
+}
+.subName {
+    position: relative;
+    top: 30px;
+    right: 20px;
+    font-size: 10px;
+}
+.article-wrapper {
+    max-height: 1274px;
+    overflow: hidden;
+}
+.link {
+    text-decoration: none;
+}

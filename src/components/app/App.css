@@ -1,0 +1,13 @@
+#Light .main {
+  display: grid;
+  grid-template: 1fr/ 3fr 1fr;
+  background-color: #ece9e9;
+  height: 1274px;
+}
+
+#Dark .main {
+  display: grid;
+  grid-template: 1fr/ 3fr 1fr;
+  background-color: #50505a;
+  height: 1274px;
+}

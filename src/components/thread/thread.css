@@ -1,0 +1,84 @@
+.thread-container {
+    display: grid;
+    grid-template: 3fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr / 1fr;
+    height: 1274px;
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    
+}
+.op img { 
+    float: left;
+    margin-top: 5px;
+    margin-left: 15px;
+    height: 80px;
+    width: 80px;
+}
+#Dark .thread-container p {
+    color: lightgray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#Light .thread-container p {
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.postTitle {
+    text-align: center;
+}
+.author {
+    float: right;
+    margin-right: 10px;
+    margin-top: 15px;
+    font-size: 0.75rem;
+}
+.author2 {
+    margin-left: 5px;
+    font-size: 0.65rem;
+}
+.location {
+    float: left;
+    font-size: 0.75rem;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.separator {
+    margin-top: 15px;
+    width: 100%;
+    float: left;
+}
+.commentBody {
+    width: 90%;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+#Dark .loading-handler {
+    display: flex;
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: lightgray
+}
+#Light .loading-handler {
+    display: flex;
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: black;
+}
+ .puff {
+    width: 15%;
+    margin-right: auto;
+    margin-left: auto;
+    width: 80px;
+    height: 80px;
+}
+
