@@ -19,11 +19,13 @@
     align-items: center;
     cursor: pointer;
     text-decoration: none;
+    border-bottom: 1px solid black;
 }
 .subContainer img {
     float: left;
     border-radius: 55%;
     margin-left: 5px;
+    margin-bottom: 1px;
     
 }
 

@@ -19,7 +19,7 @@ export const SubIcon = (props) => {
                         <img src = {props.sub.icon_img} alt='?' onError={(e)=>{e.target.onerror = null; e.target.src="image_path_here"}} style={{width: 45, height: 45,}} ></img>
                         <h4 className="sub-title" >{props.sub.title}</h4>  
                     </div>
-                    <hr></hr>
+                    
                 </div>
                 
             )
@@ -35,7 +35,7 @@ export const SubIcon = (props) => {
                         <img src = {subIcon} alt='?' onError={(e)=>{e.target.onerror = null; e.target.src="image_path_here"}} style={{width: 45, height: 45,}} ></img>
                             <h4 className="sub-title" >{props.sub.title}</h4>      
                         </div>
-                        <hr></hr>
+                       
                     </div>
                     
              )
