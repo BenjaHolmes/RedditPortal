@@ -1,8 +1,7 @@
 .subreddits-container {
     display: grid;
     grid-template: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr/ 1fr;
-    overflow-y: scroll;
-    overflow-x: hidden;
+    overflow: hidden;
     height: 1274px;
     margin-top: 1px;
     border-left: 1px solid black;
