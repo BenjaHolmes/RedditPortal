@@ -45,6 +45,11 @@ Example of Light Mode
 Example of Loading State Page
 
 
+
+
+
+
+
 ![DemonstationOfLoadingState](https://user-images.githubusercontent.com/90611253/175748709-c2f6e33c-8f81-47c2-ba28-754a7571129d.png)
 
 Example of The Redux Store's Initial State
