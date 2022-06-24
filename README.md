@@ -35,12 +35,16 @@ Example of Desktop Site
 ![DesktopStyleExample](https://user-images.githubusercontent.com/90611253/175748634-41b6f834-8be8-49a4-abb6-20e481e90930.png)
 
 Example of Mobile Site
+
+
 ![PhoneStyleExample](https://user-images.githubusercontent.com/90611253/175748651-b7915c80-b09a-48e6-aa45-68eb66316436.png)
 
 Example of Light Mode
 ![LightModeStyleExample](https://user-images.githubusercontent.com/90611253/175748663-866bb837-7e11-4f4d-9d8a-9ccedeebe5ab.png)
 
 Example of Loading State Page
+
+
 ![DemonstationOfLoadingState](https://user-images.githubusercontent.com/90611253/175748709-c2f6e33c-8f81-47c2-ba28-754a7571129d.png)
 
 Example of The Redux Store's Initial State
