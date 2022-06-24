@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# Reddit Portal
 
+## Project Description
+
+This is a React and Redux Project which makes several calls to the Reddit API to populate the webpage.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+The App allows the user to select a thread from the popular page of reddit, search for their own subreddit of threads, or choose one of the other popular reddit subs found in the sideabr.
 
-In the project directory, you can run:
+The main goal of the project was to create an app with Redux to practice state management of React apps. The biggest challenge was using the many different aspects of React and Redux in unison. 
 
-### `npm start`
+I was able to add many features to the site to create a better user experience, such as a Dark/Light theme toggle and a Loading page while the API call is in progress.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The only thing i tried to add but was unable was the useDebounce Hook, which i hoped would provide a better experience when using the searchbar. However i wasnt able to dispatch actions to the Redux store from within a React Hook and i don't know if there's a workaround to this.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Live Demonstration of the Site
 
-### `npm test`
+A Live Demonstration of the Site can be found at https://master--redditportal.netlify.app/
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Languages and Libraries Used
 
-### `npm run build`
+* HTML
+* CSS
+* JavaScript
+* JSX
+* React
+* Redux
+* React-Router-Dom
+* React-Redux
+* Redux Toolkit
+* React-Loading-Icons
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Future Additions
+I hope to add tests using Jest at a later date.
