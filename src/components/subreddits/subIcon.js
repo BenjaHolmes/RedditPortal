@@ -4,7 +4,7 @@ import subIcon from './subRedditIcon.png';
 import { useDispatch } from "react-redux/es/exports";
 import { setSubreddit } from "../../slices/articlesSlice";
 import { fetchArticles } from "../../slices/articlesSlice";
-import { Link } from "react-router-dom";
+
 
 export const SubIcon = (props) => {
     const dispatch = useDispatch();

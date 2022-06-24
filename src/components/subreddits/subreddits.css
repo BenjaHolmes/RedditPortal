@@ -5,6 +5,7 @@
     overflow-x: hidden;
     height: 1274px;
     margin-top: 1px;
+    border-left: 1px solid black;
 }
 
 .subContainer {

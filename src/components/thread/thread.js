@@ -23,7 +23,7 @@ export const Thread = (props) => {
     
     return (
         
-        <div>
+        <div className="threadDiv">
             { isLoading ? 
                 <div className="loading-handler">
                 <p className="loading"> Loading.. </p>

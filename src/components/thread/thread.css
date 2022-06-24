@@ -1,6 +1,7 @@
 .thread-container {
-    display: grid;
-    grid-template: 3fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr / 1fr;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     height: 1274px;
     width: 100%;
     overflow-y: scroll;

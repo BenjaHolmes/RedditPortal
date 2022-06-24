@@ -17,14 +17,14 @@ import {
 function App() {
   const theme = useSelector(themeSelector)
   return (
-    <div id={theme}>
+    <div id={theme} >
       <Header />
       <div className='main'>
         <BrowserRouter>
           <Routes>
-            <Route path='/' element={[<Articles />, <Subreddits /> ]}/>
-            <Route path='/article' element={[<Thread />, <Subreddits /> ]} />
-            <Route path='*' element={[<Error />, <Subreddits /> ]} />
+            <Route path='/'  element={[<Articles key={1}/>, <Subreddits key={2}/> ]}/>
+            <Route path='/article' key={2} element={[<Thread key={3}/>, <Subreddits key={2}/> ]} />
+            <Route path='*' key={3} element={[<Error key={4}/>, <Subreddits key={2}/> ]} />
           </Routes>
         </BrowserRouter>
        

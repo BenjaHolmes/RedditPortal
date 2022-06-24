@@ -19,7 +19,7 @@ export const Subreddits = (props) => {
 
     // console.log(subreddits)
     return (
-        <div>
+        <div className="sub-box">
             <Link to={'/'} className='link1'>
             <div className="subreddits-container">
                 {(subreddits != null ) ? subreddits.map((sub, index) => <SubIcon key={index} sub={sub.data} /> ) : '' }

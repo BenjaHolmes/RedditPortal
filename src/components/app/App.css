@@ -3,6 +3,7 @@
   grid-template: 1fr/ 3fr 1fr;
   background-color: #ece9e9;
   height: 1274px;
+  
 }
 
 #Dark .main {
@@ -10,4 +11,56 @@
   grid-template: 1fr/ 3fr 1fr;
   background-color: #50505a;
   height: 1274px;
+  
+}
+@media screen and (max-width: 650px) {
+  #Light .main {
+    width: fit-content;
+    
+  }
+  #Dark .main {
+    width: fit-content;
+}
+.header-container {
+  max-width: 650px;
+  width: fit-content;
+}
+.footer-container {
+  max-width: 650px;
+  width: fit-content;
+}
+.subreddits-container {
+  font-size: 0.5rem;
+  width: 75px;
+  
+}
+.subreddits-container img {
+  display: none;
+}
+.sub-box {
+  width: 75px;
+  position: absolute;
+  right: 0px;
+}
+#Light .main {
+  display: grid;
+  grid-template: 1fr/ 4.1fr 1fr;
+  background-color: #ece9e9;
+  height: 1274px;
+  
+}
+
+#Dark .main {
+  display: grid;
+  grid-template: 1fr/ 3.8fr 1fr;
+  background-color: #50505a;
+  height: 1274px;
+  
+}
+.mainText {
+  width: 75%;
+  height: 100%; 
+  margin: 15px;
+  font-size: 55%; 
+}
 }
