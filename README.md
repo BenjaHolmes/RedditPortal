@@ -9,7 +9,7 @@ The App allows the user to select a thread from the popular page of reddit, sear
 
 The main goal of the project was to create an app with Redux to practice state management of React apps. The biggest challenge was using the many different aspects of React and Redux in unison. Throughout the course of completing this project, I feel as though I gained an understanding as to why Redux is the preferred way to organize state as apps grow, for example, it's significantly easier to access a part of the state with a selector than it is to pass it down each level of the app as a prop in React.
 
-I was able to add many features to the site to create a better user experience, such as a Dark/Light theme toggle and a Loading page while the API call is in progress.
+I was able to add many features to the site to create a better user experience, such as a Dark/Light theme toggle and a Loading page while the API call is in progress. Additionally, when i tested the site on https://web.dev/measure/ , it scored 100 points for performance, so i am extremely pleased with the outcome.
 
 The only thing i tried to add but was unable was the useDebounce Hook, which i hoped would provide a better experience when using the searchbar. However i wasnt able to dispatch actions to the Redux store from within a React Hook and i don't know if there's a workaround to this.
 
